@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Kemal Snake Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/x-icon" href="img/snakeSC.jpeg">
+		<style>
+            canvas{
+                display: block;
+                margin: 0 auto;
+            }
+            .buton {
+                position: absolute;
+                top: 3%;
+                left: calc(50%);
+                font-weight: 600;
+            }
+          
+        </style>
+    </head>
+<body>
+    <div class="container">
+        <div>
+        <input type="button" class="btn btn-warning buton" value="yeniden ?" onClick="window.location.reload()">
+    </div>
+    <div>
+        <canvas id="snake" width="608" height="608">
+                
+        </canvas>
+        
+    </div>
+   
+<script src="kemal_snake.js"></script>
+</body>
+    
+</html>
